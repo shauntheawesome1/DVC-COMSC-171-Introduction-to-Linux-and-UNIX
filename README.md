@@ -1,8 +1,8 @@
 # DVC-COMSC-171-Introduction-to-Linux-and-UNIX
-# This repository has two files to the same problem: One compact, one extensive.
+# This repository has two main files to the same problem: One compact, one extensive.
 
 
-#
+# The rest is all example and learning code
 #
 # The Problem: Write a bash program to calculate the sum and average of integers on each line of a text file.
 
