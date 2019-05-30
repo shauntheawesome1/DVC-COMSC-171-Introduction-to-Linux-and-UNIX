@@ -1,0 +1,70 @@
+Process
+This list is not necessarily linear, at any point it may be necessary to go back to a previous step.
+
+understanding
+research the problem
+specification
+platform, inputs, outputs, interface, size, speed, etc.
+design/development
+decide on data representation, structure, algorithms, etc. before coding
+prototyping
+incomplete coding just sufficient to verify design
+implementation
+complete coding
+documentation
+description of usage, design, coding, etc.
+necessary for users, maintainers, other programmers, and yourself
+testing
+in house
+alpha: work in progress, limited set of outside testers
+beta: feature complete, larger set of outside testers
+release candidate: ready for release if no major bugs are found
+release
+good enough for distribution
+maintenance
+bug fixes, enhancements, occasional redesign
+end of life
+no longer worth maintaining
+Design Hints
+reuse existing components
+outline your solution before coding
+code the smallest possible increments, test and debug, save with a different name
+anticipate error conditions and deal with them gracefully
+strive for simplicity and clarity
+document your code
+Shell Control Flow
+procedural
+no objects, threads, first-class functions, etc.
+selection
+chooses between alternative actions
+iteration
+repeats an action
+call
+transfers control to another part of the program, then returns
+Shell Data Types
+Primative
+numeric
+integer, floating point (ksh, zsh)
+character
+ASCII, Unicode
+Composite
+array
+ordered, indexed
+used for random access
+string
+similar to an array of characters
+Shell Script Execution
+interpreted
+not compiled, runs in shell process
+slow
+dynamic
+declarations not required, automatic memory management
+weak typing
+operations can convert types
+variable values stored as strings
+executing a shell script
+bash script.bash arg(s)  # runs in subshell
+source script.bash arg(s)  # runs in current shell
+. script.bash arg(s)  # runs in current shell
+chmod a+x script.bash  # make executable
+./script.bash arg(s)  # runs in subshell
