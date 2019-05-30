@@ -1,0 +1,57 @@
+Regular Expressions
+A regular expression is a powerful pattern matching tool. Regular expressions are supported in text processing utilities, text editors, and programming languages.
+
+Basic regular expression
+This is the oldest and simplest form. Characters with special meaning inlude:
+
+.
+matches any single character
+[  ]
+bracket expression – matches a single character from the enclosed set
+within brackets a range is defined with an in-between -
+within brackets a logical NOT is indicated with a leading ^
+*
+multiplier – matches zero or more occurrences of the (smallest) previous expression
+^
+if first, anchors pattern to beginning of input
+$
+if last, anchors pattern to end of input
+\
+removes the special meaning of the following single character
+Extended regular expression
+This newer form has additional characters with special meaning:
+
+?
+multiplier – matches zero or one occurrence of the (smallest) previous expression
++
+multiplier – matches one or more occurrences of the (smallest) previous expression
+{n}
+multiplier – matches n occurrences of the (smallest) previous expression
+{n,}
+multiplier – matches n or more occurrences of the (smallest) previous expression
+{n,m}
+multiplier – matches between n and m (inclusive) occurrences of the (smallest) previous expression
+(  )
+grouping – enclosed characters become a single expression
+|
+alternation – logical OR, inside (  )
+Advanced regular expression
+This form contains numerous extensions and is available in newer programming languages.
+
+Character classes
+These describe sets of characters by name and are used in many contexts. In regular expressions character classes can be used only within bracket expressions. A few examples:
+
+[:alnum:]
+alpha-numeric
+[:alpha:]
+alphabetic
+[:digit:]
+numerals (decimal)
+[:lower:]
+lowercase
+[:punct:]
+punctuation
+[:space:]
+whitespace
+[:upper:]
+uppercase
