@@ -1,0 +1,60 @@
+Cryptography
+hash functions
+one-way
+used for intregity, identification/searching, passwords
+MD5 (Message Digest)
+SHA-1 (Secure Hash Algorithm)
+symmetric key
+encrypt and decrypt with same key
+efficient, difficult key management
+DES, Triple DES (Data Encryption Standard)
+AES (Advanced Encryption Standard)
+Blowfish, Twofish
+asymetric key
+RSA system (Rivest, Shamir, Adleman)
+encrypt with recipient's public key, decrypt with private key
+sign (hash) with sender's private key, confirm with public key
+D-H (Diffie-Hellman) key exchange for forward secrecy
+public key infrastructure
+identifies holders of public keys
+CA (certificate authority) issues and revokes digital certificates with identity, public key
+VPN (Virtual Private Network)
+PPTP
+Point-to-Point Tunneling Protocol
+MS-CHAP (Microsoft Challenge Handshake Authentication Protocol) authenticates
+MPPE (Microsoft Point-to-Point Encryption) encrypts
+convenient, not very secure
+L2TP/IPsec
+L2TP (Layer 2 Tunneling Protocol) sets up the tunnel
+IPsec (Internet Protocol Security) secures the traffic
+IKE (Internet Key Exchange) sets up the security association
+ESP (Encapsulating Security Payload) authenticates and encrypts
+complicated to set up, best for network-to-network links
+SSL/TLS
+Secure Socket Layer / Transport Layer Security
+requires certificates
+used for secure web and email as well as VPN
+Protection
+update OS and applications
+patches known holes
+use strong authentication
+strong, unique passwords
+multi-factor
+use a firewall
+hardware or software
+restricts access
+limit physical access
+secure wireless
+use WPA2 (more secure than WAP or WEP), WPA3 coming
+eliminate rogue access points
+don' use both wired and wireless on same computer
+less is more
+don't install questionable executables
+don't run unnecessary services
+use antivirus software
+install exactly one product
+keep databases up to date
+SELinux
+security enhanced Linux
+OpenBSD
+emphasizes correctness and proactive security
